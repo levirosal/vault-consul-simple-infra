@@ -7,13 +7,13 @@ Simple vault infrastructure using consul as backend and storage.
 
 ## Consul Instances 
 
-### Start consul cluster (Server mode)
+### Start consul cluster _(Server mode)_
 
 ```$ consul agent -config-file=/consul.d/config/server.json -ui -pid-file=/var/run/consul/consul.pid &```
 
 ## Vault Instances 
 
-### Start consul cluster (Client mode)
+### Start consul cluster _(Client mode)_
 
 ```$ consul agent -config-file=/consul.d/config/client.json -ui -pid-file=/var/run/consul/consul.pid &```
 
