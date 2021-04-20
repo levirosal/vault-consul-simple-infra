@@ -26,3 +26,11 @@ Simple vault infrastructure using consul as backend and storage.
 ```$ vault operator init```
 
 ```$ vault operator unseal $(Unseal_key)```
+
+
+## Useful Links
+
+- [Learn Vault](https://learn.hashicorp.com/vault)
+- [Learn Consul](https://learn.hashicorp.com/consul)
+- [Download Consul](https://www.consul.io/downloads)
+- [Download Vault](https://www.vaultproject.io/downloads)
